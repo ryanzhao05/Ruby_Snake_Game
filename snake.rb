@@ -114,7 +114,7 @@ class Game
 
   def text_message
     if finished?
-      "Game over, Your Score was #{@score}. Press 'R' to restart. "
+      "You lost! Your Score was #{@score}. Press 'R' to restart. "
     else
       "Score: #{@score}"
     end
